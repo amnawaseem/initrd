@@ -1,0 +1,1 @@
+cmd_/home/amna/Thesis/initrd/trigger/testinit.ko := aarch64-linux-gnu-ld -EL -r  -g -static  -T ./scripts/module-common.lds --build-id  -o /home/amna/Thesis/initrd/trigger/testinit.ko /home/amna/Thesis/initrd/trigger/testinit.o /home/amna/Thesis/initrd/trigger/testinit.mod.o ;  true

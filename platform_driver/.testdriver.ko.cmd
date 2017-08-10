@@ -1,0 +1,1 @@
+cmd_/home/amna/Thesis/initrd/platform_driver/testdriver.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/amna/Thesis/initrd/platform_driver/testdriver.ko /home/amna/Thesis/initrd/platform_driver/testdriver.o /home/amna/Thesis/initrd/platform_driver/testdriver.mod.o ;  true
