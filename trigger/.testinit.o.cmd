@@ -464,8 +464,9 @@ deps_/home/amna/Thesis/initrd/trigger/testinit.o := \
   include/uapi/linux/stat.h \
   include/linux/kmod.h \
   include/linux/gfp.h \
-    $(wildcard include/config/zone/dma.h) \
     $(wildcard include/config/zone/dma32.h) \
+    $(wildcard include/config/zone/dma.h) \
+    $(wildcard include/config/zone/xen.h) \
     $(wildcard include/config/zone/device.h) \
     $(wildcard include/config/pm/sleep.h) \
     $(wildcard include/config/memory/isolation.h) \
